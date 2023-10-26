@@ -1,0 +1,30 @@
+.app {
+    display: grid;
+    place-content: center;
+    align-items: center;
+    grid-template-columns: 60% 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    position: sticky;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input[type="text"] {
+    width: 70%;
+}
+
+button {
+    padding: .4rem;
+    cursor: pointer;
+}
+
